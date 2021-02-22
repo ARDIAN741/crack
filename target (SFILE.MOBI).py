@@ -106,12 +106,13 @@ kelas FaceBoom (objek):
         proxystatus = gr+self.useProxy+wi+"["+gr+"ON"+wi+"]" if self.useProxy  else yl+"["+rd+"OFF"+yl+"]"
         print(gr+"""
 ==================================
-[---]        """+wi+"""FaceBoom"""+gr+"""        [---]
+[---]        """+wi+"""FB target"""+gr+"""        [---]
 ==================================
-[---]  """+wi+"""BruteForce Facebook  """+gr+""" [---]
+[---]  """+wi+"""BruteForce Facebook target  """+gr+""" [---]
 ==================================
 [---]         """+yl+"""CONFIG"""+gr+"""         [---]
 ==================================
+print"SELAMAT-MENGUNAKAN-TOOLS-HASIL-RECODE"
 [>] Target      :> """+wi+target+gr+"""
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
 [>] ProxyStatus :> """+str(proxystatus)+wi)
